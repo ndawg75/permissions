@@ -1,0 +1,40 @@
+groups:
+  default:
+    default: true
+    permissions:
+    - boseconomy.common.*
+    - essentials.tptoggle
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.msg
+    - essentials.build
+    - modifyworld.*
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.clearinventory
+    - essentials.compass
+    - essentials.depth
+    - essentials.getpos
+    - essentials.help
+    - essentials.home
+    - essentials.plugins
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.sethome
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.warp
+    - essentials.warp.spawn
+    - essentials.warp.list
+    prefix: '&2'
+    worlds:
+      world:
+        permissions:
+        - factions.kit.fullplayer
+      plots:
+        permissions
+        - PlotClaim.pclaim
+        - PlotClaim.prelease
